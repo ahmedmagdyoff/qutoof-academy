@@ -1,16 +1,17 @@
 <div align="center">
 
-# 📊 Codeforces Counter
+# 🌿 Qutoof Academy
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
-[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white)](https://developer.chrome.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-### Chrome extension for analyzing Codeforces group contests.
+### Official website for Qutoof Academy.
 
-Automatically collects contest standings, counts solved problems, and exports detailed statistics as a CSV file.
+A modern and responsive website introducing **Qutoof Academy**, its educational programs, media gallery, team members, and contact information.
+
+[🌍 Live Website](https://qutoof.ahmedmagdy.cloud)
 
 </div>
 
@@ -18,53 +19,48 @@ Automatically collects contest standings, counts solved problems, and exports de
 
 # 📖 About
 
-Codeforces Counter is a lightweight Chrome extension that analyzes all contests inside a Codeforces Group.
+Qutoof Academy is the official website of **Qutoof Academy for Quran and Skills Education**.
 
-It combines official standings with unofficial participants, calculates solved problems, and exports the final statistics as a CSV report.
+The website introduces the academy, showcases its educational programs, highlights its vision, presents photos and videos from academy activities, and provides an easy way for parents and students to get in touch.
 
 ---
 
 # ✨ Features
 
-- 📊 Analyze all group contests
-- ✅ Count solved problems
-- 👥 Include unofficial participants
-- 📈 Calculate solving percentage
-- 📄 Export CSV report
-- ⚡ One-click execution
+- 🌿 Academy Introduction
+- 📖 Educational Programs
+- 🖼️ Image & Video Gallery
+- 👨‍🏫 Team Section
+- 📞 Contact Information
+- 📱 Fully Responsive Design
+- ✨ Smooth Animations
+- 🎨 Modern UI
 
 ---
 
 # 🛠 Technologies
 
-- JavaScript
 - HTML5
 - CSS3
-- Chrome Extension Manifest V3
+- JavaScript
 
 ---
 
-# 🚀 Installation
+# 🚀 Getting Started
 
-1. Clone the repository.
+Clone the repository.
 
 ```bash
-git clone https://github.com/ahmedmagdyoff/codeforces-counter.git
+git clone https://github.com/ahmedmagdyoff/qutoof-academy.git
 ```
 
-2. Open Chrome.
+Open the project.
 
-3. Navigate to:
-
-```
-chrome://extensions
+```bash
+cd qutoof-academy
 ```
 
-4. Enable **Developer Mode**.
-
-5. Click **Load unpacked**.
-
-6. Select the project folder.
+Run the website using any static web server, or simply open `index.html` in your browser.
 
 ---
 
@@ -72,23 +68,24 @@ chrome://extensions
 
 ```text
 .
-├── content.js
-├── popup.js
-├── popup.html
-├── popup.css
-├── manifest.json
+├── css/
+├── images/
+├── videos/
+├── js/
+├── index.html
 └── README.md
 ```
 
 ---
 
-# 🚀 Usage
+# 🚀 Deployment
 
-1. Open any Codeforces Group page.
-2. Click the extension icon.
-3. Press **Start**.
-4. Wait until processing finishes.
-5. A CSV report will be downloaded automatically.
+Deployment is fully automated using **GitHub Actions**.
+
+Every push to the `main` branch triggers:
+
+- ✅ Project Check
+- 🚀 VPS Deployment
 
 ---
 
